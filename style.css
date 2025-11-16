@@ -1,0 +1,194 @@
+/* *{
+    outline: 1px solid plum;
+} */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.blue-background{
+    background-color: #100f57;
+    width: 100vw;
+    height: 920px;
+    padding-top: 50px;
+    background-image: url(../images/logo\ blur.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.blue-space{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.blur-pic{
+    height: 800px;  
+    width: 100vw;
+    background-image: url(../images/big\ blur.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: 100% ;
+    background-position-y: 45%;    
+} 
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 135px;
+    height: 35px;
+}
+
+header ul{
+    list-style: none; 
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    line-height: 5px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.blue-button{
+    width: 90px;
+    height: 40px; 
+    border-radius: 40px; 
+    background-color: #0a92dd;
+    outline: 0.2px solid white;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.08); 
+}
+
+.blue-button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* END OF HEADER SECTION */
+
+.below-header{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.free-consultation{
+    width: 306px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.064);
+    outline: 0.2px solid white;
+}
+
+.free-consultation a{
+    color: #d89925;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.manage-team{
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2%;
+    background-image: url(../images/big\ cresent.svg);
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+}
+
+.school-management{
+    font-family: "Karla", sans-serif;
+    color: white;    
+    font-size: 20px;
+    margin-top: -2%;
+    background-image: url(../images/small\ cres.svg);
+    background-repeat: no-repeat;
+    background-position-x: 18%;
+    background-position-y: 90%;
+}
+
+.get-started{
+    background-color: #0a92dd;
+    outline: 0.2px solid white;
+    border-radius: 40px;
+    width: 158px;
+    height: 45px;
+    margin-top: 2%;
+}
+
+.get-started a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* SECTION 1 - BLUE BACKGROUND */
+
+.image-slider{
+    display: flex;
+    justify-content: center;
+    margin-top: -21%;
+}
+
+.project-image{
+    border-radius: 16px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.372); 
+}
+/* SECTION 2 - IMAGE SLIDER */
+
+
+.trusted-by{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #1e2024;
+}
+
+.company-logo{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+/* SECTION 3 - COMPANY LOGO */
+
+.create-your-task{
+    width: 1440px;
+    height: 646px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.review-photo{
+    width: 600px;
+    height: 646px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.review-photo img{
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.372); 
+
+}
+
+.create{
+    width: 466px;
+    height: 513px;
+}
